@@ -1,1 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Scout Database</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ========= HEADER ========= -->
+
+    <header class="header">
+
+        <div class="logo">
+            <h1>⚽ Scout Database</h1>
+        </div>
+
+        <nav class="nav">
+
+            <a href="#">Inicio</a>
+            <a href="#">Jugadores</a>
+            <a href="#">Rankings</a>
+            <a href="#">Comparador</a>
+
+        </nav>
+
+    </header>
+
+    <!-- ========= HERO ========= -->
+
+    <section class="hero">
+
+        <h2>Base de Datos de Jóvenes Promesas</h2>
+
+        <p>
+            Descubre, compara y analiza a las futuras estrellas del fútbol.
+        </p>
+
+        <input
+            type="text"
+            id="search"
+            placeholder="🔍 Buscar jugador...">
+
+    </section>
+
+    <!-- ========= FILTROS ========= -->
+
+    <section class="filters">
+
+        <button data-position="Todos">Todos</button>
+        <button data-position="POR">Porteros</button>
+        <button data-position="DFC">Centrales</button>
+        <button data-position="LI">Laterales Izquierdos</button>
+        <button data-position="LD">Laterales Derechos</button>
+        <button data-position="MCD">Mediocentros</button>
+        <button data-position="MC">Interiores</button>
+        <button data-position="MCO">Mediapuntas</button>
+        <button data-position="EI">Extremos Izq.</button>
+        <button data-position="ED">Extremos Der.</button>
+        <button data-position="DC">Delanteros</button>
+
+    </section>
+
+    <!-- ========= ESTADÍSTICAS ========= -->
+
+    <section class="dashboard">
+
+        <div class="stat-box">
+            <h3 id="totalPlayers">0</h3>
+            <span>Jugadores</span>
+        </div>
+
+        <div class="stat-box">
+            <h3 id="totalCountries">0</h3>
+            <span>Países</span>
+        </div>
+
+        <div class="stat-box">
+            <h3 id="totalClubs">0</h3>
+            <span>Clubes</span>
+        </div>
+
+        <div class="stat-box">
+            <h3 id="totalValue">0 €</h3>
+            <span>Valor total</span>
+        </div>
+
+    </section>
+
+    <!-- ========= JUGADORES ========= -->
+
+    <main>
+
+        <section id="players" class="players">
+
+            <!-- Las tarjetas aparecerán aquí automáticamente -->
+
+        </section>
+
+    </main>
+
+    <!-- ========= FOOTER ========= -->
+
+    <footer>
+
+        <p>
+
+            Scout Database © 2026
+
+        </p>
+
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
