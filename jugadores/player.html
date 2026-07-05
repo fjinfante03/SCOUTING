@@ -1,1 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha del Jugador | Scout Database</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <!-- CABECERA -->
+    <header class="header">
+
+        <div class="logo">
+            <h1>⚽ Scout Database</h1>
+        </div>
+
+        <nav class="nav">
+            <a href="../index.html">Inicio</a>
+            <a href="#">Jugadores</a>
+            <a href="#">Rankings</a>
+            <a href="#">Comparador</a>
+        </nav>
+
+    </header>
+
+    <!-- FICHA -->
+    <main class="player-page">
+
+        <section class="player-header">
+
+            <div class="player-photo">
+                <img id="playerImage" src="" alt="Jugador">
+            </div>
+
+            <div class="player-info">
+
+                <h1 id="playerName">Nombre del jugador</h1>
+
+                <h3 id="playerClub">Club</h3>
+
+                <p><strong>País:</strong> <span id="playerCountry"></span></p>
+
+                <p><strong>Posición:</strong> <span id="playerPosition"></span></p>
+
+                <p><strong>Edad:</strong> <span id="playerAge"></span></p>
+
+                <p><strong>Valor de mercado:</strong> <span id="playerValue"></span></p>
+
+            </div>
+
+        </section>
+
+        <!-- TEMPORADAS -->
+
+        <section class="season-table">
+
+            <h2>Temporadas</h2>
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>Temporada</th>
+
+                        <th>PJ</th>
+
+                        <th>Minutos</th>
+
+                        <th>Goles</th>
+
+                        <th>Asistencias</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody id="seasonBody">
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+        <!-- INFORME -->
+
+        <section class="report">
+
+            <h2>Informe Scout</h2>
+
+            <p id="playerReport">
+                Próximamente...
+            </p>
+
+        </section>
+
+    </main>
+
+    <script src="../js/player.js"></script>
+
+</body>
+
+</html>
