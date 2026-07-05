@@ -1,1 +1,14 @@
-
+[
+  {
+    "id": "johan-manzambi",
+    "nombre": "Johan Manzambi",
+    "bandera": "🇨🇭",
+    "pais": "Suiza",
+    "edad": 20,
+    "club": "SC Freiburg",
+    "posicion": "MC",
+    "valor": "55 M€",
+    "valorNumerico": 55,
+    "foto": "images/players/manzambi.jpg"
+  }
+]
