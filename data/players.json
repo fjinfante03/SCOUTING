@@ -77,29 +77,4 @@
     "foto": "images/players/assane-diao.jpg"
   },
 
-  {
-    "id": "pau-cubarsi",
-    "nombre": "Pau Cubarsí",
-    "bandera": "🇪🇸",
-    "pais": "España",
-    "edad": 18,
-    "club": "FC Barcelona",
-    "posicion": "DFC",
-    "valor": "80 M€",
-    "valorNumerico": 80,
-    "foto": "images/players/pau-cubarsi.jpg"
-  },
-
-  {
-    "id": "lamine-yamal",
-    "nombre": "Lamine Yamal",
-    "bandera": "🇪🇸",
-    "pais": "España",
-    "edad": 18,
-    "club": "FC Barcelona",
-    "posicion": "ED",
-    "valor": "200 M€",
-    "valorNumerico": 200,
-    "foto": "images/players/lamine-yamal.jpg"
-  }
-]
+  
