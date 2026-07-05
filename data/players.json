@@ -10,5 +10,96 @@
     "valor": "55 M€",
     "valorNumerico": 55,
     "foto": "images/players/manzambi.jpg"
+  },
+
+  {
+    "id": "yan-diomande",
+    "nombre": "Yan Diomandé",
+    "bandera": "🇨🇮",
+    "pais": "Costa de Marfil",
+    "edad": 19,
+    "club": "RB Leipzig",
+    "posicion": "EI",
+    "valor": "90 M€",
+    "valorNumerico": 90,
+    "foto": "images/players/yan-diomande.jpg"
+  },
+
+  {
+    "id": "jeremy-jacquet",
+    "nombre": "Jérémy Jacquet",
+    "bandera": "🇫🇷",
+    "pais": "Francia",
+    "edad": 20,
+    "club": "Rennes",
+    "posicion": "DFC",
+    "valor": "30 M€",
+    "valorNumerico": 30,
+    "foto": "images/players/jeremy-jacquet.jpg"
+  },
+
+  {
+    "id": "victor-froholdt",
+    "nombre": "Victor Froholdt",
+    "bandera": "🇩🇰",
+    "pais": "Dinamarca",
+    "edad": 20,
+    "club": "FC Porto",
+    "posicion": "MC",
+    "valor": "35 M€",
+    "valorNumerico": 35,
+    "foto": "images/players/victor-froholdt.jpg"
+  },
+
+  {
+    "id": "jeremy-monga",
+    "nombre": "Jeremy Monga",
+    "bandera": "🏴",
+    "pais": "Inglaterra",
+    "edad": 16,
+    "club": "Leicester City",
+    "posicion": "EI",
+    "valor": "18 M€",
+    "valorNumerico": 18,
+    "foto": "images/players/jeremy-monga.jpg"
+  },
+
+  {
+    "id": "assane-diao",
+    "nombre": "Assane Diao",
+    "bandera": "🇪🇸",
+    "pais": "España",
+    "edad": 20,
+    "club": "Como",
+    "posicion": "EI",
+    "valor": "40 M€",
+    "valorNumerico": 40,
+    "foto": "images/players/assane-diao.jpg"
+  },
+
+  {
+    "id": "pau-cubarsi",
+    "nombre": "Pau Cubarsí",
+    "bandera": "🇪🇸",
+    "pais": "España",
+    "edad": 18,
+    "club": "FC Barcelona",
+    "posicion": "DFC",
+    "valor": "80 M€",
+    "valorNumerico": 80,
+    "foto": "images/players/pau-cubarsi.jpg"
+  },
+
+  {
+    "id": "lamine-yamal",
+    "nombre": "Lamine Yamal",
+    "bandera": "🇪🇸",
+    "pais": "España",
+    "edad": 18,
+    "club": "FC Barcelona",
+    "posicion": "ED",
+    "valor": "200 M€",
+    "valorNumerico": 200,
+    "foto": "images/players/lamine-yamal.jpg"
   }
 ]
