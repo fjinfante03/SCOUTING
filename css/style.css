@@ -1,1 +1,381 @@
+/* ========================================
+   SCOUT DATABASE
+   style.css
+======================================== */
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+:root{
+
+    --bg:#0f172a;
+    --bg2:#1e293b;
+    --bg3:#334155;
+
+    --primary:#2563eb;
+    --primaryHover:#1d4ed8;
+
+    --green:#22c55e;
+    --red:#ef4444;
+    --yellow:#facc15;
+
+    --text:#ffffff;
+    --text2:#cbd5e1;
+
+    --border:#475569;
+
+}
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+body{
+
+    font-family:"Inter",sans-serif;
+
+    background:var(--bg);
+
+    color:white;
+
+}
+
+a{
+
+    text-decoration:none;
+
+    color:white;
+
+}
+
+img{
+
+    max-width:100%;
+
+    display:block;
+
+}
+
+header{
+
+    height:80px;
+
+    background:var(--bg2);
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:0 60px;
+
+    border-bottom:1px solid var(--border);
+
+    position:sticky;
+
+    top:0;
+
+    z-index:999;
+
+}
+
+.logo h1{
+
+    font-size:28px;
+
+    font-weight:800;
+
+}
+
+nav{
+
+    display:flex;
+
+    gap:30px;
+
+}
+
+nav a{
+
+    transition:.25s;
+
+    font-weight:600;
+
+}
+
+nav a:hover{
+
+    color:#60a5fa;
+
+}
+.hero{
+
+    text-align:center;
+
+    padding:70px 20px;
+
+}
+
+.hero h2{
+
+    font-size:46px;
+
+    margin-bottom:15px;
+
+}
+
+.hero p{
+
+    color:var(--text2);
+
+    margin-bottom:35px;
+
+    font-size:18px;
+
+}
+#search{
+
+    width:500px;
+
+    max-width:90%;
+
+    padding:16px;
+
+    border:none;
+
+    border-radius:15px;
+
+    background:var(--bg3);
+
+    color:white;
+
+    font-size:17px;
+
+    outline:none;
+
+}
+.filters{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+
+    padding:25px;
+
+}
+
+.filters button{
+
+    padding:12px 18px;
+
+    border:none;
+
+    border-radius:30px;
+
+    background:var(--bg2);
+
+    color:white;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+.filters button:hover{
+
+    background:var(--primary);
+
+}
+.dashboard{
+
+    width:90%;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+
+    gap:25px;
+
+    margin-top:30px;
+
+}
+
+.stat-box{
+
+    background:var(--bg2);
+
+    padding:25px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+}
+
+.stat-box h3{
+
+    font-size:38px;
+
+    color:#60a5fa;
+
+}
+
+.stat-box span{
+
+    color:var(--text2);
+
+}
+.players{
+
+    width:90%;
+
+    margin:60px auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fill,minmax(270px,1fr));
+
+    gap:30px;
+
+}
+
+.card{
+
+    background:var(--bg2);
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    transition:.3s;
+
+    box-shadow:0 15px 30px rgba(0,0,0,.25);
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.card img{
+
+    width:100%;
+
+    height:270px;
+
+    object-fit:cover;
+
+}
+.card-content{
+
+    padding:20px;
+
+}
+
+.card-content h3{
+
+    font-size:24px;
+
+    margin-bottom:12px;
+
+}
+
+.card-content p{
+
+    color:var(--text2);
+
+    margin:8px 0;
+
+}
+
+.market{
+
+    color:var(--green)!important;
+
+    font-weight:bold;
+
+    font-size:20px;
+
+}
+.card a{
+
+    display:block;
+
+    margin-top:18px;
+
+    text-align:center;
+
+    padding:12px;
+
+    background:var(--primary);
+
+    border-radius:12px;
+
+    transition:.25s;
+
+}
+
+.card a:hover{
+
+    background:var(--primaryHover);
+
+}
+footer{
+
+    background:var(--bg2);
+
+    text-align:center;
+
+    padding:30px;
+
+    border-top:1px solid var(--border);
+
+}
+@media(max-width:900px){
+
+header{
+
+    flex-direction:column;
+
+    height:auto;
+
+    padding:25px;
+
+}
+
+nav{
+
+    margin-top:20px;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+}
+
+.hero h2{
+
+    font-size:34px;
+
+}
+
+.players{
+
+    grid-template-columns:1fr;
+
+}
+
+}
