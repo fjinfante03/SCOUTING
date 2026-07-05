@@ -10,6 +10,23 @@
     "valor": "55 M€",
     "valorNumerico": 55,
     "foto": "images/players/manzambi.jpg"
+
+    "temporadas":[
+
+        {
+
+            "temporada":"25/26",
+
+            "partidos":47,
+
+            "minutos":3595,
+
+            "goles":8,
+
+            "asistencias":6
+
+        }
+    ]
   },
 
   {
